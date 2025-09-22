@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to China</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Arial, sans-serif;
+    }
+    body {
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #b71c1c;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin-bottom: 8px;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    nav ul li a:hover {
+      color: #ffd700;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1549693578-d683be217e58?auto=format&fit=crop&w=1200&q=80') no-repeat center center/cover;
+      height: 420px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 6px black;
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+    .welcome {
+      text-align: center;
+      padding: 30px;
+      background: #fff3f3;
+    }
+    .welcome h2 {
+      margin-bottom: 10px;
+      color: #b71c1c;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 30px auto;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      height: 180px;
+      object-fit: cover;
+    }
+    .card h3 {
+      margin: 12px 0;
+      color: #b71c1c;
+    }
+    .cta {
+      text-align: center;
+      padding: 40px;
+      background: #fce4ec;
+    }
+    .cta h2 {
+      margin-bottom: 15px;
+      color: #b71c1c;
+    }
+    .cta button {
+      padding: 10px 20px;
+      border: none;
+      background: #b71c1c;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+    .cta button:hover {
+      background: #7f0000;
+      transform: translateY(-3px);
+    }
+    footer {
+      background: linear-gradient(to right, #b71c1c, #7f0000);
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 14px;
+      letter-spacing: 1px;
+      margin-top: 30px;
+    }
+    footer p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_China.svg" 
+           alt="China Flag" 
+           style="height:40px; vertical-align:middle; margin-right:10px;">
+      Welcome to China
+    </h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Culture</a></li>
+        <li><a href="#">Nature</a></li>
+        <li><a href="#">Travel</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    Explore the Wonders of China 🇨🇳
+  </section>
+
+  <section class="welcome">
+    <h2>欢迎 – Welcome to China</h2>
+    <p>China is a land of timeless traditions, breathtaking landscapes, and rapid modern development. From ancient wonders to futuristic cities, every journey here is unforgettable.</p>
+  </section>
+
+  <section class="container">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1549692520-acc6669e2f0c?auto=format&fit=crop&w=800&q=80" alt="Great Wall of China">
+      <h3>Great Wall of China</h3>
+      <p>One of the world’s greatest wonders, stretching thousands of kilometers across northern China.</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1589862447513-617f8f3f94a8?auto=format&fit=crop&w=800&q=80" alt="Forbidden City">
+      <h3>Forbidden City</h3>
+      <p>The imperial palace of the Ming and Qing dynasties, located in the heart of Beijing.</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1506399301304-3d76b157cf85?auto=format&fit=crop&w=800&q=80" alt="Terracotta Army">
+      <h3>Terracotta Army</h3>
+      <p>Thousands of life-sized clay soldiers built to guard the tomb of China’s first emperor.</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1556424689-1c6e2a338ebc?auto=format&fit=crop&w=800&q=80" alt="Shanghai Skyline">
+      <h3>Shanghai Skyline</h3>
+      <p>A dazzling mix of modern skyscrapers and historic charm along the Huangpu River.</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1582281298059-5ceeb5d2bfe2?auto=format&fit=crop&w=800&q=80" alt="Chinese Culture">
+      <h3>Rich Culture</h3>
+      <p>China’s festivals, traditions, and cuisine make it a land of vibrant cultural experiences.</p>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2> Ready to Discover China?</h2>
+    <p>Plan your trip today and witness a nation where history and modernity blend beautifully.</p>
+    <button>Start Your Journey</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Explore China | Made with  by Global Youth</p>
+    <p>"China: Ancient Civilization, Modern Power."</p>
+  </footer>
+</body>
+</html>
